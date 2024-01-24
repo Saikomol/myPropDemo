@@ -2,7 +2,7 @@
 
 import './App.css'
 import Button from './Button';
-import './App.css'
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -11,7 +11,23 @@ function App() {
     <>
       <div>
        <h1>This is my Button APP</h1>
-       <Button />
+       <h2>Simple Login form</h2>
+       <form>
+        <label htmlFor="username">Username</label>
+        <input type="text" id="username" />
+        <label htmlFor="password">Password</label>
+        <input type="password" id="password" />       
+        <Button buttonText={"Login"}/>
+       </form>
+       <h2>Simple Registration form</h2>
+       <form>
+        <label htmlFor="username">Username</label>
+        <input type="text" id="username" />
+        <label htmlFor="password">Password</label>
+        <input type="password" id="password" />       
+        <Button buttonText={"Register"}/>
+       </form>
+
       </div>
     </>
   )

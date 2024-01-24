@@ -1,6 +1,6 @@
-const Button =() => {
+const Button =({buttonText}) => {
     return(
-        <button>Click me!</button>
+        <button>{buttonText}</button>//we start what we want and put the pass variable next
     )
 }
 
